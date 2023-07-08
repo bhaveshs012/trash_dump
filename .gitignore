@@ -1,0 +1,46 @@
+# Flutter/Dart specific
+**/build/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.flutter-plugins-version
+.pub-cache/
+.pub/
+/build/
+/.idea/
+*.iml
+*.iws
+*.log
+*.plist
+*.jks
+*.keystore
+*.pbxproj
+*.xcworkspace
+*.android.*
+*.js.*
+*.lock
+*ios/Runner/GeneratedPluginRegistrant.*
+*.class
+*.jar
+
+# Environment variables
+.env
+
+# Android specific
+**/android/app/google-services.json
+**/android/app/src/main/kotlin/**/MainActivity.kt
+**/android/app/src/main/kotlin/**/MainActivity.java
+**/android/app/src/debug/kotlin/**/MainActivity.kt
+**/android/app/src/debug/kotlin/**/MainActivity.java
+
+# iOS specific
+**/ios/Runner/GoogleService-Info.plist
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# Visual Studio Code specific
+.vscode/
+
+# Android Studio specific
+*.iml
+.gradle/
