@@ -88,8 +88,6 @@ class LoginWithEmail extends StatelessWidget {
                     validator: (value) {
                       if (value!.isEmpty) {
                         return 'Please enter your password';
-                      } else if (value != 'Admin@5678') {
-                        return 'Password is incorrect';
                       }
                       return null;
                     },
